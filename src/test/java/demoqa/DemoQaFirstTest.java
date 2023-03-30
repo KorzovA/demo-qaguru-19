@@ -17,6 +17,9 @@ public class DemoQaFirstTest {
         Configuration.holdBrowserOpen = true;
         Configuration.browserSize = "1920x1080";
         open("https://demoqa.com/automation-practice-form");
+        //нет у меня ни каикх банеров рекламных и все проходит , ну пусть будет так
+        executeJavaScript("$('#fixedban').remove()");
+        executeJavaScript("$('footer').remove()");
         $("#firstName").setValue("Anton");
         $("#lastName").setValue("Korzov");
         $("#userEmail").setValue("Korzov@qa.com");
