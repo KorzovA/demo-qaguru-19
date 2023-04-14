@@ -12,6 +12,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 
 public class DemoQaFirstTest {
+
     @Test
     void firstDemoTest () {
         Configuration.holdBrowserOpen = true;
