@@ -12,7 +12,10 @@ public class MathOperation {
         double number5 = 5.55;
         byte number6 = 100;
         byte number7 = 110;
+<<<<<<<<
+========
 
+>>>>>>>>
         System.out.println("Сумма " + (number1 + number2) + ".");
         System.out.println("Вычитание " + (number1 - number2) + ".");
         System.out.println("Умножение " + (number1 * number2) + ".");
