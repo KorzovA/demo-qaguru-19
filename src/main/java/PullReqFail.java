@@ -1,5 +1,5 @@
 public class PullReqFail {
-    private static String msg = "Hello, dear reviewer!!!";
+    private static String msg = "Hello!!!";
     public static void main(String[] args) {
         System.out.println(msg);
     }
